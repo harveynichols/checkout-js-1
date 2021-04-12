@@ -12,6 +12,18 @@ In order to build from the source code, you must have the following set up in yo
 
 One of the simplest ways to install Node is using [NVM](https://github.com/nvm-sh/nvm#installation-and-update). You can follow their instructions to set up your environment if it is not already set up.
 
+## Deployment
+
+First, run the build script:
+
+```sh
+./build.sh
+```
+
+This script builds the production version of the checkout and saves the output in `dist` directory.
+
+The production code is a collection of static files. They can be accessed via the browser. There is no need to run any Node server to run them.
+
 ## Development
 
 Once you have cloned the repository and set up your environment, you can start developing with it.
