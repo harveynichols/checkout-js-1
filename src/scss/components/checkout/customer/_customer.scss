@@ -5,6 +5,10 @@
 // Customer email
 //
 // -----------------------------------------------------------------------------
+.poc-class {
+    font-weight: bold;
+}
+
 .customerEmail-container {
     @include grid-row;
 
