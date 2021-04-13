@@ -63,6 +63,10 @@ const GuestForm: FunctionComponent<GuestFormProps & WithLanguageProps & FormikPr
                     <TranslatedHtml id="customer.checkout_as_guest_text" />
                 </p>
 
+                <p className="poc-class">
+                    <TranslatedHtml id="customer.poc_text" />
+                </p>
+
                 <div className="customerEmail-container">
                     <div className="customerEmail-body">
                         <EmailField onChange={ onChangeEmail } />

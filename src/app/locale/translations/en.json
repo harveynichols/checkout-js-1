@@ -99,7 +99,8 @@
             "show_more": "Show more"
         },
         "customer": {
-            "checkout_as_guest_text": "Checking out as a <strong>Guest</strong>? You'll be able to save your details to create an account with us later.",
+            "poc_text": "This is a PoC of the BC Checkout-JS solution in a local dev env",
+            "checkout_as_guest_text": "PoC: Checking out as a <strong>Guest</strong>? You'll be able to save your details to create an account with us later.",
             "continue_as_guest_action": "Continue as guest",
             "create_account_action": "Create Account",
             "set_password_action": "Save Password",
