@@ -2,6 +2,84 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.130.0](https://github.com/bigcommerce/checkout-js/compare/v1.129.0...v1.130.0) (2021-04-16)
+
+
+### Features
+
+* **common:** CHECKOUT-5747 Log extra debug data related to cart changed error ([e4ea5b5](https://github.com/bigcommerce/checkout-js/commit/e4ea5b5d2afdd8ba3bd8c4a704b6f9d5facacdd3))
+
+## [1.129.0](https://github.com/bigcommerce/checkout-js/compare/v1.128.0...v1.129.0) (2021-04-15)
+
+
+### Features
+
+* **payment:** INT-2503 INT-3611 Bump checkout-sdk-js ([37ac777](https://github.com/bigcommerce/checkout-js/commit/37ac777cab9e902680cb6050a12fe8ae9e9e4479))
+
+## [1.128.0](https://github.com/bigcommerce/checkout-js/compare/v1.127.0...v1.128.0) (2021-04-13)
+
+
+### Features
+
+* **payment:** INT-2503 Change autocomplete props ([7102646](https://github.com/bigcommerce/checkout-js/commit/71026468c799e7a5456fd6f4ad55257ac0d65eaa))
+* **payment:** INT-2503 Fawry custom form ([08cca99](https://github.com/bigcommerce/checkout-js/commit/08cca99b983925e07b47e120eb737222a7b37a7a))
+
+## [1.127.0](https://github.com/bigcommerce/checkout-js/compare/v1.126.4...v1.127.0) (2021-04-13)
+
+
+### Features
+
+* **payment:** INT-4021 Bump checkout-sdk-js ([8a3740f](https://github.com/bigcommerce/checkout-js/commit/8a3740fb5ff171a10445c74e72b04f861b01e4e5))
+
+### [1.126.4](https://github.com/bigcommerce/checkout-js/compare/v1.126.3...v1.126.4) (2021-04-13)
+
+
+### Bug Fixes
+
+* **payment:** INT-4100 added ability to translate SEPA display name ([52a0571](https://github.com/bigcommerce/checkout-js/commit/52a0571d717dd7129543a13c3bf131b4197b6976))
+
+### [1.126.3](https://github.com/bigcommerce/checkout-js/compare/v1.126.2...v1.126.3) (2021-04-12)
+
+
+### Bug Fixes
+
+* **payment:** PAYPAL-970 update version of checkout-sdk ([c3dfaaf](https://github.com/bigcommerce/checkout-js/commit/c3dfaaf3a9cceb28bc574f432a4deeed3a90fb90))
+
+### [1.126.2](https://github.com/bigcommerce/checkout-js/compare/v1.126.1...v1.126.2) (2021-04-09)
+
+
+### Bug Fixes
+
+* **payment:** INT-3408 Bump SDK. ([67b6037](https://github.com/bigcommerce/checkout-js/commit/67b60370d348b489c75607e8f7b615392c5061c3))
+
+### [1.126.1](https://github.com/bigcommerce/checkout-js/compare/v1.126.0...v1.126.1) (2021-04-08)
+
+
+### Bug Fixes
+
+* **checkout:** CHECKOUT-5740 Bump checkout-sdk version ([f97fa5c](https://github.com/bigcommerce/checkout-js/commit/f97fa5c3f2313401f669a360c72e21fb0b1b8acd))
+
+## [1.126.0](https://github.com/bigcommerce/checkout-js/compare/v1.125.0...v1.126.0) (2021-04-05)
+
+
+### Features
+
+* **payment:** PAYPAL-965 Bump SDK. ([b9432dc](https://github.com/bigcommerce/checkout-js/commit/b9432dc0ca51173e4a544102b3e5d70b1550979d))
+
+## [1.125.0](https://github.com/bigcommerce/checkout-js/compare/v1.124.1...v1.125.0) (2021-04-01)
+
+
+### Features
+
+* **payment:** PAYPAL-973 changed pay later logo to svg ([bbdc9f7](https://github.com/bigcommerce/checkout-js/commit/bbdc9f7f2100cb2ae1f83821d73d0fa872538e33))
+
+### [1.124.1](https://github.com/bigcommerce/checkout-js/compare/v1.124.0...v1.124.1) (2021-04-01)
+
+
+### Bug Fixes
+
+* **payment:** INT-3571 Bump SDK. ([8316341](https://github.com/bigcommerce/checkout-js/commit/831634146eafa0b85c4f71794eb6c907d1b80f31))
+
 ## [1.124.0](https://github.com/bigcommerce/checkout-js/compare/v1.123.1...v1.124.0) (2021-03-29)
 
 
