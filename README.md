@@ -52,7 +52,8 @@ If you want to create a prerelease (i.e.: `alpha`) for testing in the integratio
 npm run release:alpha
 ```
 
-After that, you need to push the prerelease tag to your fork so it can be referenced remotely.
+After that, you need to push the prerelease tag to your fork so it can be referenced remotely
+(The command line will aid you in doing this).
 
 ## Custom Checkout installation
 
