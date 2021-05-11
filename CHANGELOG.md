@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.130.1-alpha.1620741821210](https://github.com/bigcommerce/checkout-js/compare/v1.124.0...v1.130.1-alpha.1620741821210) (2021-05-11)
+
+
+### Features
+
+* **poc-setup:** add "build" sh script ([8405e38](https://github.com/bigcommerce/checkout-js/commit/8405e387bd8e8c3a7915070f81adefe717c6ec66))
+* **poc-setup:** add Dockerfile ([3214d94](https://github.com/bigcommerce/checkout-js/commit/3214d9477bbdd26d7332141ad03a6c07be7a73e9))
+* **poc-setup:** add files/directories to .gitignore ([deed405](https://github.com/bigcommerce/checkout-js/commit/deed405b48631541bcaee73bdf3eea75f1486659))
+* **poc-setup:** add instructions about deployment ([c511f77](https://github.com/bigcommerce/checkout-js/commit/c511f779758dd31c00f885dc1049f7293bfbfb37))
+* **poc-setup:** ignore build directory ([4e946b4](https://github.com/bigcommerce/checkout-js/commit/4e946b4e169aa53cd982d8e20d388dbfd6be4fc1))
+* **poc-setup:** set default node version to v12 ([65fcb3e](https://github.com/bigcommerce/checkout-js/commit/65fcb3ed38c6447a1b86ae992d1464f57a0e3a14))
+* **poc-setup:** show example of using custom class and locale text in GuestForm ([38263e9](https://github.com/bigcommerce/checkout-js/commit/38263e92080840ea9506be481d67498081c413e7))
+* **poc-setup:** update dist ([a6c9365](https://github.com/bigcommerce/checkout-js/commit/a6c93655b913f61c3fc32851597ba1d006b23a2a))
+* **poc-setup:** update dist to node v12 build ([69ad131](https://github.com/bigcommerce/checkout-js/commit/69ad13130a036cccc4c2f5840b3f41d06c24e6fc))
+* **poc-setup:** update POC text ([01f666b](https://github.com/bigcommerce/checkout-js/commit/01f666ba6b5c4701473dba1bc13ae62f72afbcae))
+* **poc-setup:** update test snapshots with PoC text ([eeb94ed](https://github.com/bigcommerce/checkout-js/commit/eeb94ed63a6a2cab1d6d9c583ec29a10da215769))
+
 ## [1.130.0](https://github.com/bigcommerce/checkout-js/compare/v1.129.0...v1.130.0) (2021-04-16)
 
 
