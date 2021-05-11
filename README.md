@@ -55,6 +55,11 @@ npm run release:alpha
 After that, you need to push the prerelease tag to your fork so it can be referenced remotely
 (The command line will aid you in doing this).
 
+## Docker
+
+Please note that you may use Docker to run this project. Bear in mind that by default, the Dockerfile serves the dist folder (production build).
+In order to run the local files, change `./dist` to `./build` in the `Dockerfile`.
+
 ## Custom Checkout installation
 
 Follow [this guide](https://developer.bigcommerce.com/stencil-docs/customizing-checkout/installing-custom-checkouts) for instructions on how to fork and install this app as a Custom Checkout in your store.
