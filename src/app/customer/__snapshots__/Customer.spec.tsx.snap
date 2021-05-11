@@ -28,6 +28,13 @@ exports[`Customer when view type is "guest" matches snapshot 1`] = `
             ? You'll be able to save your details to create an account with us later.
           </span>
         </p>
+        <p
+          class="poc-class"
+        >
+          <span>
+            This is a PoC of the BC Checkout-JS solution
+          </span>
+        </p>
         <div
           class="customerEmail-container"
         >
