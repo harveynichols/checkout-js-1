@@ -9,9 +9,6 @@
 #Build
 /build
 
-# production
-/dist
-
 # IDE
 .idea
 
