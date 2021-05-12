@@ -69,9 +69,18 @@ If you want to test your checkout implementation, you can run:
 npm run dev:server
 ```
 
-And enter the local URL for `auto-loader-dev.js` in Checkout Settings, e.g `http://127.0.0.1:8080/auto-loader-dev.js`
+Then, enter the local URL for `auto-loader-dev.js` in Checkout Settings, e.g `http://127.0.0.1:8080/auto-loader-dev.js`
+Note: if Checkout on BC is live, this method is not suitable as it will cause the checkout to go down.
+Instead, test locally entirely using the `cornerstone` repo or run the `npm run release:alpha` command if you must try
+out the checkout implementation on the live server for a period of time (making sure to revert once done).
 
 ## Release
+
+For now, create alpha releases using `npm run release:alpha` and directly upload the new alpha version using Cyberduck.
+See [this guide](https://harveynichols.atlassian.net/wiki/spaces/PROD/pages/edit-v2/1635254306) for more details.
+
+Note that the below release instructions only apply to the BigCommerce repository, not ours.
+We will need to create our own pipelines to handle live releasing, in the future.
 
 Everytime a PR is merged to the master branch, CircleCI will trigger a build automatically. However, it won't create a new Git release until it is approved by a person with write access to the repository. If you have write access, you can approve a release job by going to [CircleCI](https://circleci.com/gh/bigcommerce/workflows/checkout-js/tree/master) and look for the job you wish to approve. You can also navigate directly to the release job by clicking on the yellow dot next to the merged commit.
 
