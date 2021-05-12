@@ -3,27 +3,14 @@
 // =============================================================================
 
 .checkoutHeader {
-    background-color: container("fill", "dark");
-    border-bottom: container("border");
+    min-height: 0;
     text-align: center;
-
-    @include breakpoint("small") {
-        min-height: remCalc(120px);
-    }
-
-    @include breakpoint("medium") {
-        text-align: left;
-    }
 }
 
 .checkoutHeader-content {
     @include grid-row;
 
     padding: spacing("single");
-
-    @include breakpoint("small") {
-        padding: spacing("double");
-    }
 }
 
 .checkoutHeader-heading {
@@ -32,4 +19,9 @@
     color: inherit;
     margin-bottom: 0;
     word-wrap: break-word;
+}
+
+.checkoutHeader-link {
+    display: flex;
+    justify-content: center;
 }
