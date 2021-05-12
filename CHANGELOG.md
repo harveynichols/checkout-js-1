@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.137.2-alpha.1620808313737](https://github.com/bigcommerce/checkout-js/compare/v1.137.1...v1.137.2-alpha.1620808313737) (2021-05-12)
+
+
+### Features
+
+* **poc-setup:** add .dockerignore ([6ab919f](https://github.com/bigcommerce/checkout-js/commit/6ab919fe219a41a1d642d47b9af647a3c083c226))
+* **poc-setup:** add "build" sh script ([af4d402](https://github.com/bigcommerce/checkout-js/commit/af4d402679bdd0da92f7d76fb2e6adea4ea1834e))
+* **poc-setup:** add details abouting using Docker to README ([42a691c](https://github.com/bigcommerce/checkout-js/commit/42a691cb012d99faf75d08fe7e79391a6dc84a5d))
+* **poc-setup:** add Dockerfile ([55723f9](https://github.com/bigcommerce/checkout-js/commit/55723f9b1fe5cfb23484ec361e64bed09819a890))
+* **poc-setup:** add files/directories to .gitignore ([d7a15cf](https://github.com/bigcommerce/checkout-js/commit/d7a15cfd7c7a46c760a1a9504c43e7f0e8dc7ecc))
+* **poc-setup:** add instructions about deployment ([62c7585](https://github.com/bigcommerce/checkout-js/commit/62c75854b90ed0f4208329a0e7b903bb34134c1b))
+* **poc-setup:** add prelease tagging details to README ([580199d](https://github.com/bigcommerce/checkout-js/commit/580199dee49591580d2cc9cec710d1ddb027f27f))
+* **poc-setup:** create `docker-compose` ([2bf1575](https://github.com/bigcommerce/checkout-js/commit/2bf1575a548dce5193447e75c04b23f2cf4983b8))
+* **poc-setup:** ignore build directory ([30a2a84](https://github.com/bigcommerce/checkout-js/commit/30a2a848dc3a39ffb2aa4bfcb4ec91470a608141))
+* **poc-setup:** set default node version to v12 ([641f3c2](https://github.com/bigcommerce/checkout-js/commit/641f3c25e3b047fc97d7b6af0116f2d0e787cbb0))
+* **poc-setup:** show example of using custom class and locale text in GuestForm ([7c457f4](https://github.com/bigcommerce/checkout-js/commit/7c457f4bbaad1501b56794fad326db3182651d89))
+* **poc-setup:** update dist ([3bb2e7a](https://github.com/bigcommerce/checkout-js/commit/3bb2e7aaa3ae004f76e2ec8bf2feea9ee1836e86))
+* **poc-setup:** update dist ([ae10a30](https://github.com/bigcommerce/checkout-js/commit/ae10a30db187998a6c2db0d6705be10b038729f6))
+* **poc-setup:** update dist to node v12 build ([bbb6ae4](https://github.com/bigcommerce/checkout-js/commit/bbb6ae4982f647336b1c127cef5f907e6d4bfd7e))
+* **poc-setup:** update POC text ([b0febd9](https://github.com/bigcommerce/checkout-js/commit/b0febd97745eee9c40aa704c13c2097e90ad26db))
+* **poc-setup:** update test snapshots with PoC text ([fe5556f](https://github.com/bigcommerce/checkout-js/commit/fe5556f2e254bcec80d2b5e7bc0eb0d966ed77ea))
+* **poc-setup:** use latest version of httpd-alpine with alpine ([c954ae0](https://github.com/bigcommerce/checkout-js/commit/c954ae080006abed8f70bdb3621c8d2b0bee0578))
+
 ### [1.137.1](https://github.com/bigcommerce/checkout-js/compare/v1.137.0...v1.137.1) (2021-05-10)
 
 ## [1.137.0](https://github.com/bigcommerce/checkout-js/compare/v1.136.0...v1.137.0) (2021-05-06)
