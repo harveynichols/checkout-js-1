@@ -46,6 +46,12 @@ If you are developing the application locally and want to build the source code 
 npm run dev
 ```
 
+If you want to create a local server with your local build, run the following command:
+
+```sh
+npm run dev:server
+```
+
 If you want to create a prerelease (i.e.: `alpha`) for testing in the integration environment, you can run the following command:
 
 ```sh
