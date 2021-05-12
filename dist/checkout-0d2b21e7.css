@@ -4492,15 +4492,8 @@ h6 a:hover {
   margin-right: 0.5rem; }
 
 .checkoutHeader {
-  background-color: #fafafa;
-  border-bottom: 1px solid #ebebeb;
+  min-height: 0;
   text-align: center; }
-  @media (min-width: 551px) {
-    .checkoutHeader {
-      min-height: 9.23077rem; } }
-  @media (min-width: 801px) {
-    .checkoutHeader {
-      text-align: left; } }
 
 .checkoutHeader-content {
   margin: 0 auto;
@@ -4512,15 +4505,16 @@ h6 a:hover {
     display: table; }
   .checkoutHeader-content:after {
     clear: both; }
-  @media (min-width: 551px) {
-    .checkoutHeader-content {
-      padding: 3rem; } }
 
 .checkoutHeader-heading {
   font-size: 2.76923rem;
   color: inherit;
   margin-bottom: 0;
   word-wrap: break-word; }
+
+.checkoutHeader-link {
+  display: flex;
+  justify-content: center; }
 
 .checkout-steps {
   counter-reset: li-counter;
@@ -5344,4 +5338,4 @@ body.klarna-payments-fso-open {
     font-weight: normal; }
 
 
-/*# sourceMappingURL=checkout-a798eba5.css.map*/
+/*# sourceMappingURL=checkout-0d2b21e7.css.map*/

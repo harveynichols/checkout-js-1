@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.137.2-alpha.1620842114714](https://github.com/bigcommerce/checkout-js/compare/v1.137.2-alpha.1620808313737...v1.137.2-alpha.1620842114714) (2021-05-12)
+
+
+### Features
+
+* **poc-setup:** add README notes regarding running a dev server ([f3754b4](https://github.com/bigcommerce/checkout-js/commit/f3754b49954c0c1c75ae456639808d54ad1437c4))
+* **poc-setup:** add release details and instructions to README ([ab81292](https://github.com/bigcommerce/checkout-js/commit/ab81292f18a1f0c71ac5d02ada16b9b2bc9ebf03))
+* **poc-setup:** style checkout header ([435ff7f](https://github.com/bigcommerce/checkout-js/commit/435ff7ff999b232f66ff3a526d0e2855adaf8f12))
+
 ### [1.137.2-alpha.1620808313737](https://github.com/bigcommerce/checkout-js/compare/v1.137.1...v1.137.2-alpha.1620808313737) (2021-05-12)
 
 
