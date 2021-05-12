@@ -284,7 +284,7 @@ describe('PaymentMethodTitle', () => {
                 } }
             />
         );
-        const baseURL = (id: string) => `/img/payment-providers/checkoutcom_${id}.png`;
+        const baseURL = (id: string) => `/img/payment-providers/checkoutcom_${id}.svg`;
 
         let component = checkoutcomTitleComponent('sepa');
         expect(component.find('[data-test="payment-method-logo"]').prop('src'))
@@ -301,5 +301,13 @@ describe('PaymentMethodTitle', () => {
         component = checkoutcomTitleComponent('qpay');
         expect(component.find('[data-test="payment-method-logo"]').prop('src'))
             .toEqual(`${config.cdnPath}${baseURL('qpay')}`);
+
+        component = checkoutcomTitleComponent('credit_card');
+        expect(component.find('[data-test="payment-method-name"]').text())
+            .toEqual(defaultProps.method.config.displayName);
+
+        component = checkoutcomTitleComponent('checkoutcom');
+        expect(component.find('[data-test="payment-method-name"]').text())
+            .toEqual(defaultProps.method.config.displayName);
     });
 });

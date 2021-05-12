@@ -118,12 +118,16 @@ function getPaymentMethodTitle(
                 titleText: (method.config.displayName === 'Credit Card' ? language.translate('payment.adyen_credit_debit_card_text') : method.config.displayName) || '',
             },
             [PaymentMethodId.Mollie]: {
-                logoUrl: method.method === 'creditcard' ? '' : cdnPath(`/img/payment-providers/${method.method}.svg`),
+                logoUrl: method.method === 'credit_card' ? '' : cdnPath(`/img/payment-providers/${method.method}.svg`),
                 titleText: methodName,
             },
             [PaymentMethodId.Checkoutcom]: {
-                logoUrl: method.id === 'credit_card' ? '' : cdnPath(`/img/payment-providers/checkoutcom_${method.id.toLowerCase()}.png`),
-                titleText: method.id === 'credit_card' ? methodName : '',
+                logoUrl: ['credit_card', 'checkoutcom'].includes(method.id) ? '' : cdnPath(`/img/payment-providers/checkoutcom_${method.id.toLowerCase()}.svg`),
+                titleText: methodName,
+            },
+            [PaymentMethodId.StripeV3]: {
+                logoUrl: '',
+                titleText: method.method === 'iban' ? language.translate('payment.stripe_sepa_display_name_text') : methodName,
             },
             [PaymentMethodId.StripeV3]: {
                 logoUrl: '',
