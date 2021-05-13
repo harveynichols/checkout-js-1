@@ -1,0 +1,64 @@
+// =============================================================================
+// SCREEN SIZES
+// =============================================================================
+
+
+// Screen sizes
+// -----------------------------------------------------------------------------
+
+$screen-xxxlarge:               1920px !default;
+$screen-xxlarge:                1681px !default;
+$screen-xlarge:                 1480px !default;
+$screen-large:                  1200px !default;
+$screen-medium:                 980px !default;
+$screen-small:                  620px !default;
+$screen-xsmall:                 360px !default;
+$screen-xxsmall:                320px !default;
+
+
+
+// Screen sizes map
+// -----------------------------------------------------------------------------
+
+$screenSizeMap: (
+        xxxlarge:                   $screen-xxxlarge,
+        xxlarge:                    $screen-xxlarge,
+        xlarge:                     $screen-xlarge,
+        large:                      $screen-large,
+        medium:                     $screen-medium,
+        small:                      $screen-small,
+        xsmall:                     $screen-xsmall,
+        xxsmall:                    $screen-xxsmall
+);
+
+
+//
+// Screen sizes function
+// -----------------------------------------------------------------------------
+
+@function screenSize($key) {
+
+  @if map-has-key($screenSizeMap, $key) {
+    @return map-get($screenSizeMap, $key);
+  }
+
+  @warn "Unknown `#{$key}` in $screenSizeMap.";
+  @return null;
+}
+
+// Responsive Breakpoints
+// -----------------------------------------------------------------------------
+//
+// Add to your object/theme file
+// Eg. @include breakpoint(medium) { styles }
+//
+// -----------------------------------------------------------------------------
+
+@mixin breakpoint($size) {
+  @if type-of($size) == "number" {
+    @media (min-width: $size) { @content; }
+  }
+  @else {
+    @media (min-width: screenSize($size)) { @content; }
+  }
+}
