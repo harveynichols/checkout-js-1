@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.137.2-alpha.1620895893079](https://github.com/bigcommerce/checkout-js/compare/v1.137.2-alpha.1620842114714...v1.137.2-alpha.1620895893079) (2021-05-13)
+
+
+### Features
+
+* **poc-setup:** add and use _screensizes SCSS ([c81c203](https://github.com/bigcommerce/checkout-js/commit/c81c2032b64d1a3ccca42fe91b52ccf28a8a6f35))
+* **poc-setup:** keep existing SCSS structure ([25c22a7](https://github.com/bigcommerce/checkout-js/commit/25c22a78ea4eb864db757fa3a8d4a87fc94dd466))
+* **poc-styling:** add `.editorconfig` ([77b9177](https://github.com/bigcommerce/checkout-js/commit/77b9177d7f6f60df2a5bf1c7d29d98dc4fb20231))
+* **poc-styling:** apply `.editorconfig` ([e109ee1](https://github.com/bigcommerce/checkout-js/commit/e109ee1da64911cfbc67eb8aacd78b7780ec5547))
+
 ### [1.137.2-alpha.1620842114714](https://github.com/bigcommerce/checkout-js/compare/v1.137.2-alpha.1620808313737...v1.137.2-alpha.1620842114714) (2021-05-12)
 
 
