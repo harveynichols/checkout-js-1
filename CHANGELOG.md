@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.137.2-alpha.1620951999134](https://github.com/bigcommerce/checkout-js/compare/v1.137.2-alpha.1620895893079...v1.137.2-alpha.1620951999134) (2021-05-14)
+
+
+### Features
+
+* **poc-setup:** add comment regarding component style imports ([09aca1e](https://github.com/bigcommerce/checkout-js/commit/09aca1e5ad2e1f217adb9e9083ec92efd6670242))
+* **poc-setup:** add custom checkout header styles ([6fc0fef](https://github.com/bigcommerce/checkout-js/commit/6fc0fef7b8683e1d76feb4e330e1edb7556587ba))
+* **poc-setup:** add custom checkout step styles ([d2430da](https://github.com/bigcommerce/checkout-js/commit/d2430da0525c5d99ae51d06d53ffdc2a6a4a2563))
+* **poc-setup:** override support email text as BC need to be contacted to update supportEmail ([e02ba5a](https://github.com/bigcommerce/checkout-js/commit/e02ba5a612bd510b18d5de2d1ad6a092f869bc4c))
+* **poc-setup:** set border-radius to 0 ([5f8a41c](https://github.com/bigcommerce/checkout-js/commit/5f8a41c1e23c990a376e50d249eb6cbe10633448))
+* **poc-setup:** style borders and remove box-shadow ([1b46a3f](https://github.com/bigcommerce/checkout-js/commit/1b46a3f363b71dcd4f92d6176312529664fe6abc))
+* **poc-setup:** update order confirmation order support text ([9af0b1a](https://github.com/bigcommerce/checkout-js/commit/9af0b1a75f5307fa663dfab8861b456d7f1514f7))
+* **poc-setup:** update screen sizes correctly ([09dfe3a](https://github.com/bigcommerce/checkout-js/commit/09dfe3a21bb5ba4a269932227a0511e28e009571))
+
 ### [1.137.2-alpha.1620895893079](https://github.com/bigcommerce/checkout-js/compare/v1.137.2-alpha.1620842114714...v1.137.2-alpha.1620895893079) (2021-05-13)
 
 

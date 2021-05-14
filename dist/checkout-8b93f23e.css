@@ -666,36 +666,36 @@ meta.foundation-mq-small {
   width: 0; }
 
 meta.foundation-mq-small-only {
-  font-family: "/only screen and (max-width: 551px)/";
+  font-family: "/only screen and (max-width: 620px)/";
   width: 0; }
 
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:551px)/";
-  width: 551px; }
+  font-family: "/only screen and (min-width:620px)/";
+  width: 620px; }
 
 meta.foundation-mq-medium-only {
-  font-family: "/only screen and (min-width:551px) and (max-width:801px)/";
-  width: 551px; }
+  font-family: "/only screen and (min-width:620px) and (max-width:980px)/";
+  width: 620px; }
 
 meta.foundation-mq-large {
-  font-family: "/only screen and (min-width:801px)/";
-  width: 801px; }
+  font-family: "/only screen and (min-width:980px)/";
+  width: 980px; }
 
 meta.foundation-mq-large-only {
-  font-family: "/only screen and (min-width:801px) and (max-width:968px)/";
-  width: 801px; }
+  font-family: "/only screen and (min-width:980px) and (max-width:1200px)/";
+  width: 980px; }
 
 meta.foundation-mq-xlarge {
-  font-family: "/only screen and (min-width:968px)/";
-  width: 968px; }
+  font-family: "/only screen and (min-width:1200px)/";
+  width: 1200px; }
 
 meta.foundation-mq-xlarge-only {
-  font-family: "/only screen and (min-width:968px) and (max-width:1441px)/";
-  width: 968px; }
+  font-family: "/only screen and (min-width:1200px) and (max-width:1580px)/";
+  width: 1200px; }
 
 meta.foundation-mq-xxlarge {
-  font-family: "/only screen and (min-width:1441px)/";
-  width: 1441px; }
+  font-family: "/only screen and (min-width:1580px)/";
+  width: 1580px; }
 
 meta.foundation-data-attribute-namespace {
   font-family: false; }
@@ -1272,13 +1272,13 @@ td {
 
 html {
   font-size: 13px; }
-  @media (min-width: 551px) {
+  @media (min-width: 620px) {
     html {
       font-size: 13px; } }
-  @media (min-width: 801px) {
+  @media (min-width: 980px) {
     html {
       font-size: 13px; } }
-  @media (min-width: 968px) {
+  @media (min-width: 1200px) {
     html {
       font-size: 13px; } }
 
@@ -1513,7 +1513,7 @@ src/settings/foundation/buttons/_settings.scss
   .button:focus, .button.is-active, .button.active {
     box-shadow: 0 0 2px rgba(51, 51, 51, 0.6);
     outline: none; }
-  @media (min-width: 481px) {
+  @media (min-width: 360px) {
     .button + .button {
       margin-left: 0.75rem; } }
 
@@ -1863,7 +1863,7 @@ Inputs of all types should be associated with a label which has a `for` attribut
   border-color: #d9d9d9;
   border-style: solid;
   border-width: 1px;
-  border-radius: 4px;
+  border-radius: 0;
   box-shadow: inset 0 1px 1px #ebebeb;
   color: #333;
   display: block;
@@ -1972,7 +1972,7 @@ parent: forms
   .form-select::-ms-expand {
     display: none; }
   .form-select.radius {
-    border-radius: 4px; }
+    border-radius: 0; }
   .form-select:focus {
     background-color: #fff;
     border-color: #4496f6; }
@@ -2082,7 +2082,7 @@ the correct widths. We support `form-field--half`, `form-field--third` and
   max-width: none;
   padding: 0; }
 
-@media (min-width: 551px) {
+@media (min-width: 620px) {
   .form-row {
     display: flex;
     flex-direction: row;
@@ -2245,7 +2245,7 @@ parent: forms
     opacity: 0.4; }
 
 .form-checkbox + .form-label::before {
-  border-radius: 4px; }
+  border-radius: 0; }
 
 .form-checkbox + .form-label::after {
   background-image: url("data:image/svg+xml;utf8, %3Csvg%20width%3D%2212%22%20height%3D%2211%22%20viewBox%3D%220%200%2012%2011%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cdefs%3E%3Cfilter%20x%3D%22-50%25%22%20y%3D%22-50%25%22%20width%3D%22200%25%22%20height%3D%22200%25%22%20filterUnits%3D%22objectBoundingBox%22%20id%3D%22a%22%3E%3CfeOffset%20dy%3D%221%22%20in%3D%22SourceAlpha%22%20result%3D%22shadowOffsetOuter1%22%2F%3E%3CfeGaussianBlur%20in%3D%22shadowOffsetOuter1%22%20result%3D%22shadowBlurOuter1%22%2F%3E%3CfeColorMatrix%20values%3D%220%200%200%200%200.137254902%200%200%200%200%200.505882353%200%200%200%200%200.870588235%200%200%200%200.7%200%22%20in%3D%22shadowBlurOuter1%22%20result%3D%22shadowMatrixOuter1%22%2F%3E%3CfeMerge%3E%3CfeMergeNode%20in%3D%22shadowMatrixOuter1%22%2F%3E%3CfeMergeNode%20in%3D%22SourceGraphic%22%2F%3E%3C%2FfeMerge%3E%3C%2Ffilter%3E%3C%2Fdefs%3E%3Cpath%20d%3D%22M612.138%202935.716c-1.964%202.295-3.942%204.556-5.92%206.833-.098.115-.194.215-.29.33-.146.168-.42.15-.564%200-.998-.98-1.996-1.977-2.993-2.958-.37-.366.194-.965.564-.582.9.88%201.786%201.762%202.687%202.66%201.997-2.294%203.975-4.57%205.955-6.866.353-.4.916.183.563.582z%22%20transform%3D%22translate(-601%20-2934)%22%20stroke%3D%22%23FFF%22%20filter%3D%22url(%23a)%22%20stroke-width%3D%22.3%22%20fill%3D%22%23FFF%22%20fill-rule%3D%22evenodd%22%2F%3E%3C%2Fsvg%3E");
@@ -2293,7 +2293,7 @@ Sometimes inputs need inline actions. An inline button for a search box for exam
   .form-input.has-action + .button--inputAction, .has-action.widget--stripev3 + .button--inputAction {
     background: transparent;
     border: 0;
-    border-radius: 0 4px 4px 0;
+    border-radius: 0 0 0 0;
     float: left;
     height: 2.84615rem;
     margin: 0.07692rem 0 0 -2.92308rem;
@@ -2383,7 +2383,7 @@ PrefixPostfix
     height: 3.45rem; }
 
 .form-prefixPostfix-input {
-  border-radius: 4px 0 0 4px; }
+  border-radius: 0 0 0 0; }
 
 .form-prefixPostfix-label {
   background-color: #fff;
@@ -2398,13 +2398,13 @@ PrefixPostfix
   text-align: center; }
 
 .form-prefixPostfix-label--prefix {
-  border-radius: 4px 0 0 4px;
+  border-radius: 0 0 0 0;
   border-width: 1px 0 1px 1px; }
   .form-prefixPostfix-label--prefix + .form-input, .form-prefixPostfix-label--prefix + .widget--stripev3 {
-    border-radius: 0 4px 4px 0; }
+    border-radius: 0 0 0 0; }
 
 .form-prefixPostfix-label--postfix {
-  border-radius: 0 4px 4px 0;
+  border-radius: 0 0 0 0;
   border-width: 1px 1px 1px 0; }
 
 .form-prefixPostfix-button--prefix {
@@ -2637,7 +2637,7 @@ Form actions come in 2 flavours; normal and fixed.
   border: 0;
   padding: 1.5rem 0 0;
   text-align: center; }
-  @media (min-width: 481px) {
+  @media (min-width: 360px) {
     .form-actions {
       text-align: left; } }
 
@@ -2645,13 +2645,13 @@ Form actions come in 2 flavours; normal and fixed.
   display: inline-block;
   margin-bottom: 1rem;
   width: 100%; }
-  @media (min-width: 481px) {
+  @media (min-width: 360px) {
     .form-actions > * {
       margin: 0 0 0 0.75rem;
       vertical-align: baseline;
       width: auto; } }
 
-@media (min-width: 481px) {
+@media (min-width: 360px) {
   .form-actions--fixed {
     background: #fff;
     border-top: 1px solid #d9d9d9;
@@ -2912,24 +2912,24 @@ Form inline errors
 
 .form-field--ccName {
   order: 4; }
-  @media (min-width: 551px) {
+  @media (min-width: 620px) {
     .form-field--ccName {
       order: 3; } }
 
 .form-field--ccCvv {
   order: 3; }
-  @media (min-width: 551px) {
+  @media (min-width: 620px) {
     .form-field--ccCvv {
       order: 4; } }
 
 .form-field--ccNumber,
 .form-field--ccName {
   flex: 100%; }
-  @media (min-width: 551px) {
+  @media (min-width: 620px) {
     .form-field--ccNumber,
     .form-field--ccName {
       flex: 0.65 0 65%; } }
-  @media (min-width: 801px) {
+  @media (min-width: 980px) {
     .form-field--ccNumber,
     .form-field--ccName {
       flex: 0.75 0 75%; } }
@@ -2937,12 +2937,12 @@ Form inline errors
 .form-field--ccExpiry,
 .form-field--ccCvv {
   flex: 0.5; }
-  @media (min-width: 551px) {
+  @media (min-width: 620px) {
     .form-field--ccExpiry,
     .form-field--ccCvv {
       flex: 0.35 0 35%;
       max-width: 13.84615rem !important; } }
-  @media (min-width: 801px) {
+  @media (min-width: 980px) {
     .form-field--ccExpiry,
     .form-field--ccCvv {
       flex: 0.25 0 25%; } }
@@ -3282,7 +3282,7 @@ body.has-activeModal {
   max-height: 80%;
   overflow: auto;
   position: fixed; }
-  @media only screen and (max-width: 551px) {
+  @media only screen and (max-width: 620px) {
     .modal {
       min-height: 100vh; } }
   .modal .column, .modal .columns {
@@ -3291,17 +3291,17 @@ body.has-activeModal {
     margin-top: 0; }
   .modal > :last-child {
     margin-bottom: 0; }
-  @media only screen and (min-width: 551px) {
+  @media only screen and (min-width: 620px) {
     .modal {
       left: 0;
       margin: 0 auto;
       max-width: 80%;
       right: 0;
       width: 680px; } }
-  @media only screen and (min-width: 551px) {
+  @media only screen and (min-width: 620px) {
     .modal {
       top: 50%; } }
-  @media (min-width: 551px) {
+  @media (min-width: 620px) {
     .modal {
       transform: translateY(-50%); } }
 
@@ -3329,12 +3329,12 @@ body.has-activeModal {
   border-top: 1px solid #ebebeb;
   padding: 1.6875rem 1.875rem;
   text-align: center; }
-  @media (min-width: 481px) {
+  @media (min-width: 360px) {
     .modal-footer {
       text-align: right; } }
   .modal-footer .button {
     display: block; }
-    @media (min-width: 481px) {
+    @media (min-width: 360px) {
       .modal-footer .button {
         display: inline-block;
         margin-bottom: 0; } }
@@ -3343,7 +3343,7 @@ body.has-activeModal {
   display: inline-block;
   font-size: 1.15385rem;
   margin: 0 0 0.75rem; }
-  @media (min-width: 481px) {
+  @media (min-width: 360px) {
     .modal-footer-link {
       display: inline;
       margin: 1.5rem; } }
@@ -3387,7 +3387,7 @@ body.has-activeModal {
 
 .loadingNotification-label {
   background: #333;
-  border-radius: 4px;
+  border-radius: 0;
   color: #fff;
   display: inline-block;
   font-size: 1.15385rem;
@@ -3554,7 +3554,7 @@ src/settings/bigcommerce/credit-card-types/_settings.scss
 html,
 body {
   height: auto; }
-  @media (min-width: 968px) {
+  @media (min-width: 1200px) {
     html,
     body {
       scroll-behavior: smooth; } }
@@ -3594,6 +3594,7 @@ h6 a:hover {
   color: currentcolor; }
 
 .button {
+  border-radius: 0;
   text-transform: uppercase;
   transition: all 100ms ease-out; }
   .button:focus {
@@ -3639,7 +3640,7 @@ h6 a:hover {
 .button--slab {
   width: 100%; }
 
-@media (min-width: 968px) {
+@media (min-width: 1200px) {
   .form {
     max-width: 41.53846rem; } }
 
@@ -3712,7 +3713,7 @@ h6 a:hover {
   color: #292929;
   font-weight: 700; }
 
-@media (min-width: 968px) {
+@media (min-width: 1200px) {
   .form-toggle-password {
     display: none; } }
 
@@ -3722,7 +3723,7 @@ h6 a:hover {
 .form-select {
   -webkit-appearance: menulist !important;
   background-image: none;
-  border-radius: 4px;
+  border-radius: 0;
   padding: 0.75rem 1.5rem 0.75rem 1rem; }
 
 .alertBox-heading {
@@ -3751,7 +3752,7 @@ h6 a:hover {
   opacity: 0;
   outline: none;
   transition: opacity 200ms ease-out, transform 200ms ease-out; }
-  @media (min-width: 551px) {
+  @media (min-width: 620px) {
     .modal {
       transform: scale(0.95) translateY(-50%); } }
   .modal .form-actions {
@@ -3764,7 +3765,7 @@ h6 a:hover {
     opacity: 1;
     right: 2%;
     top: 2%; }
-    @media (min-width: 551px) {
+    @media (min-width: 620px) {
       .modal.is-active, .modal.modal--afterOpen {
         bottom: auto;
         left: 0;
@@ -3773,7 +3774,7 @@ h6 a:hover {
         right: 0;
         top: 50%;
         transform: scale(1) translateY(-50%); } }
-  @media (min-width: 551px) {
+  @media (min-width: 620px) {
     .modal.modal--medium {
       max-width: 500px; } }
   .modal.modal--error {
@@ -3812,7 +3813,7 @@ h6 a:hover {
     width: 100%; }
     .modal-footer .button:last-child {
       margin-bottom: 0; }
-    @media (min-width: 551px) {
+    @media (min-width: 620px) {
       .modal-footer .button {
         margin-bottom: 0;
         margin-left: 0.75rem;
@@ -4053,7 +4054,7 @@ h6 a:hover {
   align-items: center;
   background-color: #fff;
   border: 1px solid #ebebeb;
-  border-radius: 4px;
+  border-radius: 0;
   bottom: 0;
   box-shadow: 0 1px 4px rgba(95, 95, 95, 0.14);
   display: flex;
@@ -4163,12 +4164,12 @@ h6 a:hover {
 
 .form-checklist {
   border: 1px solid #d9d9d9;
-  border-radius: 4px 4px 0 0;
+  border-radius: 0 0 0 0;
   color: #292929;
   list-style: none;
   margin-left: 0; }
   .form-checklist:only-child {
-    border-radius: 4px; }
+    border-radius: 0; }
 
 .form-checklist-item {
   border-bottom: 1px solid #d9d9d9;
@@ -4198,7 +4199,7 @@ h6 a:hover {
   min-height: 4.61538rem;
   padding: 1rem 2.25rem 1rem 3.75rem;
   position: relative; }
-  @media (min-width: 551px) {
+  @media (min-width: 620px) {
     .form-checklist-checkbox ~ .form-label {
       padding-left: 4.5rem; } }
   .form-checklist-checkbox ~ .form-label::before, .form-checklist-checkbox ~ .form-label::after {
@@ -4212,7 +4213,7 @@ h6 a:hover {
     margin: auto;
     position: absolute;
     top: 0; }
-    @media (min-width: 551px) {
+    @media (min-width: 620px) {
       .form-checklist-checkbox ~ .form-label::before, .form-checklist-checkbox ~ .form-label::after {
         left: 1.5rem; } }
   .form-checklist-checkbox ~ .form-label::after {
@@ -4260,7 +4261,7 @@ h6 a:hover {
     max-height: 26.92308rem; }
   .form-checklist-body-exit-active {
     max-height: 0; }
-  @media (min-width: 551px) {
+  @media (min-width: 620px) {
     .form-checklist-body {
       margin-left: 4.5rem; } }
 
@@ -4270,7 +4271,7 @@ h6 a:hover {
 
 .form-checklist-footer {
   border: 1px solid #d9d9d9;
-  border-radius: 0 0 4px 4px;
+  border-radius: 0 0 0 0;
   border-top: 0;
   color: #4496f6;
   line-height: 1.25;
@@ -4278,7 +4279,7 @@ h6 a:hover {
   text-align: center; }
 
 .form-checklist-action {
-  border-radius: 0 0 4px 4px;
+  border-radius: 0 0 0 0;
   padding: 1.5rem 0;
   width: 100%; }
   .form-checklist-action:focus, .form-checklist-action:hover {
@@ -4294,13 +4295,13 @@ h6 a:hover {
   margin-bottom: 0; }
 
 .cart {
-  border: 1px solid #ebebeb;
-  border-radius: 4px;
-  box-shadow: 0 1px 4px rgba(95, 95, 95, 0.14);
+  border: 1px solid #333;
+  border-radius: 0;
+  box-shadow: none;
   display: none;
   margin: 3rem 0 1.5rem;
   min-height: 300px; }
-  @media (min-width: 968px) {
+  @media (min-width: 1200px) {
     .cart {
       display: block; } }
 
@@ -4329,7 +4330,7 @@ h6 a:hover {
     fill: currentColor; }
 
 .cart-section {
-  border-top: 1px solid #ebebeb;
+  border-top: 1px solid #333;
   padding: 1.5rem; }
 
 .cart-section-heading {
@@ -4432,7 +4433,7 @@ h6 a:hover {
   float: left;
   margin-bottom: 1.5rem;
   padding: 0; }
-  @media (min-width: 551px) {
+  @media (min-width: 620px) {
     .customerEmail-action {
       margin: 1.8rem 0 0 0;
       padding-left: 1.5rem;
@@ -4443,7 +4444,7 @@ h6 a:hover {
   padding-right: 0;
   width: 100%;
   float: left; }
-  @media (min-width: 551px) {
+  @media (min-width: 620px) {
     .customerEmail-body {
       width: 58.33333%; } }
 
@@ -4462,7 +4463,7 @@ h6 a:hover {
 .customerView-actions {
   margin-top: -3.07692rem;
   white-space: nowrap; }
-  @media (min-width: 551px) {
+  @media (min-width: 620px) {
     .customerView-actions {
       margin-top: -0.38462rem; } }
   .customerView-actions .button {
@@ -4492,16 +4493,16 @@ h6 a:hover {
   margin-right: 0.5rem; }
 
 .checkoutHeader {
-  background-color: #fafafa;
-  border-bottom: 1px solid #ebebeb;
-  min-height: 0;
-  text-align: center; }
-  @media (min-width: 551px) {
+  background-color: #fff;
+  border-bottom: 1px solid #000;
+  min-height: 0 !important;
+  text-align: center !important; }
+  @media (min-width: 620px) {
     .checkoutHeader {
-      min-height: 0; } }
-  @media (min-width: 801px) {
+      min-height: 0 !important; } }
+  @media (min-width: 980px) {
     .checkoutHeader {
-      text-align: center; } }
+      text-align: center !important; } }
 
 .checkoutHeader-content {
   margin: 0 auto;
@@ -4513,7 +4514,7 @@ h6 a:hover {
     display: table; }
   .checkoutHeader-content:after {
     clear: both; }
-  @media (min-width: 551px) {
+  @media (min-width: 620px) {
     .checkoutHeader-content {
       padding: 1.5rem; } }
 
@@ -4531,17 +4532,17 @@ h6 a:hover {
   counter-reset: li-counter;
   list-style-type: none;
   margin: 0; }
-  @media (min-width: 801px) {
+  @media (min-width: 980px) {
     .checkout-steps {
       padding-right: 6rem; } }
 
 .checkout-step {
-  border-bottom: 1px solid #ebebeb;
+  border-bottom: 1px solid #333;
   padding: 1.5rem 0; }
   .checkout-step:last-child {
     border: 0; }
 
-@media (min-width: 968px) {
+@media (min-width: 1200px) {
   .checkout-view-content.ng-enter, .checkout-view-content.ng-leave {
     overflow: hidden;
     transition: max-height 600ms cubic-bezier(0.77, 0, 0.175, 1); }
@@ -4570,10 +4571,10 @@ h6 a:hover {
 
 .checkout-form {
   margin: 0; }
-  @media (min-width: 551px) {
+  @media (min-width: 620px) {
     .checkout-form {
       margin-left: 4.19231rem; } }
-  @media (min-width: 968px) {
+  @media (min-width: 1200px) {
     .checkout-form {
       margin-left: 0; } }
   @media (min-width: 1080px) {
@@ -4584,7 +4585,7 @@ h6 a:hover {
   height: 2.69231rem;
   width: 2.69231rem;
   background-color: #333;
-  border-radius: 50%;
+  border-radius: 0;
   text-align: center;
   transition: transform 250ms ease; }
   .stepHeader-counter::before {
@@ -4617,10 +4618,10 @@ h6 a:hover {
   display: flex;
   flex-wrap: wrap;
   padding: 1.5rem 0; }
-  @media (min-width: 551px) {
+  @media (min-width: 620px) {
     .stepHeader {
       flex-wrap: nowrap; } }
-  @media (min-width: 968px) {
+  @media (min-width: 1200px) {
     .stepHeader {
       flex-wrap: nowrap; } }
   .stepHeader.is-readonly {
@@ -4648,14 +4649,14 @@ h6 a:hover {
   margin-top: 0.76923rem;
   order: 3;
   width: 100%; }
-  @media (min-width: 551px) {
+  @media (min-width: 620px) {
     .stepHeader-body {
       margin-left: 0;
       order: inherit; } }
-  @media (min-width: 801px) {
+  @media (min-width: 980px) {
     .stepHeader-body {
       margin-left: 4.19231rem; } }
-  @media (min-width: 968px) {
+  @media (min-width: 1200px) {
     .stepHeader-body {
       margin-left: 0; } }
 
@@ -4663,7 +4664,7 @@ h6 a:hover {
   align-self: flex-start;
   margin-left: auto;
   margin-top: 0.38462rem; }
-  @media (min-width: 551px) {
+  @media (min-width: 620px) {
     .stepHeader-actions {
       margin-left: 1.5rem; } }
   .stepHeader-actions .button {
@@ -4763,7 +4764,7 @@ h6 a:hover {
 .googlePay-logo {
   height: 3.07692rem; }
 
-@media (min-width: 551px) {
+@media (min-width: 620px) {
   .paymentProviderHeader-cc {
     float: right; } }
 
@@ -4826,7 +4827,7 @@ body.klarna-payments-fso-open {
 
 .productList-item {
   margin-bottom: 3rem; }
-  @media (min-width: 551px) {
+  @media (min-width: 620px) {
     .productList-item {
       margin-bottom: 1.5rem; } }
   .productList-item:last-child {
@@ -4839,7 +4840,7 @@ body.klarna-payments-fso-open {
 .product {
   display: flex;
   flex-wrap: wrap; }
-  @media (min-width: 551px) {
+  @media (min-width: 620px) {
     .product {
       flex-wrap: nowrap; } }
 
@@ -4853,7 +4854,7 @@ body.klarna-payments-fso-open {
   padding-right: 0;
   width: 100%;
   word-wrap: break-word; }
-  @media (min-width: 551px) {
+  @media (min-width: 620px) {
     .product-body {
       padding-right: 0.375rem;
       width: 50%; } }
@@ -4872,7 +4873,7 @@ body.klarna-payments-fso-open {
 .product-actions {
   align-self: center;
   margin-left: auto; }
-  @media (min-width: 551px) {
+  @media (min-width: 620px) {
     .product-actions {
       align-self: flex-start;
       order: 3;
@@ -4885,10 +4886,10 @@ body.klarna-payments-fso-open {
 
 .spamProtection-container {
   margin: 0; }
-  @media (min-width: 551px) {
+  @media (min-width: 620px) {
     .spamProtection-container {
       margin-left: 4.19231rem; } }
-  @media (min-width: 968px) {
+  @media (min-width: 1200px) {
     .spamProtection-container {
       margin-left: 0; } }
   @media (min-width: 1080px) {
@@ -4898,7 +4899,7 @@ body.klarna-payments-fso-open {
 .spamProtection-panel {
   background-color: #fff;
   border: 1px solid #ebebeb;
-  border-radius: 4px;
+  border-radius: 0;
   display: flex;
   min-height: 10rem;
   padding: 0.75rem;
@@ -4956,7 +4957,7 @@ body.klarna-payments-fso-open {
 .widget--paymentMethod {
   background-color: #fafafa;
   border: 1px solid #d9d9d9;
-  border-radius: 4px;
+  border-radius: 0;
   list-style: none;
   margin-left: 0;
   padding-bottom: 0; }
@@ -5197,7 +5198,7 @@ body.klarna-payments-fso-open {
     display: table; }
   .layout:after {
     clear: both; }
-  @media (min-width: 968px) {
+  @media (min-width: 1200px) {
     .layout {
       padding-bottom: 1.5rem; } }
 
@@ -5206,10 +5207,10 @@ body.klarna-payments-fso-open {
   padding-right: 1.15385rem;
   width: 100%;
   float: left; }
-  @media (min-width: 968px) {
+  @media (min-width: 1200px) {
     .layout-cart {
       width: 41.66667%; } }
-  @media (min-width: 1261px) {
+  @media (min-width: 1480px) {
     .layout-cart {
       width: 33.33333%; } }
   .layout-cart.is-sticky {
@@ -5221,13 +5222,13 @@ body.klarna-payments-fso-open {
   padding-right: 1.15385rem;
   width: 100%;
   float: left; }
-  @media (min-width: 968px) {
+  @media (min-width: 1200px) {
     .layout-main {
       width: 58.33333%; } }
-  @media (min-width: 1261px) {
+  @media (min-width: 1480px) {
     .layout-main {
       width: 66.66667%; } }
-  @media (min-width: 1261px) {
+  @media (min-width: 1480px) {
     .layout-main {
       padding-right: 6rem; } }
 
@@ -5349,4 +5350,4 @@ body.klarna-payments-fso-open {
     font-weight: normal; }
 
 
-/*# sourceMappingURL=checkout-1332c1dd.css.map*/
+/*# sourceMappingURL=checkout-8b93f23e.css.map*/
