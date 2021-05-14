@@ -18,7 +18,7 @@
 }
 
 .checkout-step {
-    border-bottom: 1px solid color("primary");
+    border-bottom: 1px solid color("primary") !important;
     padding: spacing("single") 0;
 
     &:last-child {
@@ -58,7 +58,7 @@
     @include square($checkoutStep-counter-size);
 
     background-color: color("primary");
-    border-radius: 0;
+    border-radius: 0 !important;
     text-align: center;
     transition: transform 250ms ease;
 

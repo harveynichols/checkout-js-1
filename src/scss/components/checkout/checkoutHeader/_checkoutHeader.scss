@@ -2,8 +2,8 @@
 // CHECKOUT HEADER (Component)
 // =============================================================================
 .checkoutHeader {
-    background-color: color("whites", "bright");
-    border-bottom: 1px solid color("blacks");
+    background-color: color("whites", "bright") !important;
+    border-bottom: 1px solid color("blacks") !important;
     min-height: 0 !important;
     text-align: center !important;
 

@@ -3,9 +3,9 @@
 // =============================================================================
 
 .cart {
-    border: 1px solid color("primary");
+    border: 1px solid color("primary") !important;
     border-radius: $checkoutCart-borderRadius;
-    box-shadow: none;
+    box-shadow: none !important;
     display: none;
     margin: spacing("double") 0 spacing("single");
     min-height: $checkoutCart-minHeight;
@@ -59,7 +59,7 @@
 // -----------------------------------------------------------------------------
 
 .cart-section {
-    border-top: 1px solid color("primary");
+    border-top: 1px solid color("primary") !important;
     padding: $checkoutCart-padding;
 }
 

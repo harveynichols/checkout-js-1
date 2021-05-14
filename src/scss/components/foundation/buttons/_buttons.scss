@@ -12,7 +12,7 @@
 @if $exportCSS--buttons { // 1
 
     .button {
-        border-radius: 0;
+        border-radius: 0 !important;
         text-transform: uppercase;
         transition: all 100ms ease-out;
 
