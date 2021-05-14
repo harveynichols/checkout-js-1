@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.139.0](https://github.com/bigcommerce/checkout-js/compare/v1.138.0...v1.139.0) (2021-05-13)
+
+
+### Features
+
+* **payment:** INT-4071 Clearpay - Create payment method ([971deea](https://github.com/bigcommerce/checkout-js/commit/971deea87e5d7db6c3e8ce34bd028d4d625e2a67))
+* **payment:** INT-4237 INT-4071 Bump SDK. ([7e46eb0](https://github.com/bigcommerce/checkout-js/commit/7e46eb055e291446fa4d8f8ef53e9b212f911d87))
+
+## [1.138.0](https://github.com/bigcommerce/checkout-js/compare/v1.137.1...v1.138.0) (2021-05-13)
+
+
+### Features
+
+* **payment:** INT-4184 Add Creditor and Debtor to Sepa ([2d64770](https://github.com/bigcommerce/checkout-js/commit/2d6477006d0c6e909f89bb3bd9017f28a4ca642b))
+* **payment:** INT-4184 Fix styling issues ([99d8a18](https://github.com/bigcommerce/checkout-js/commit/99d8a1866742fea6bf776ebf45e1260d51702b92))
+* **payment:** INT-4184 Remove BIC field from fieldset ([0bd9551](https://github.com/bigcommerce/checkout-js/commit/0bd955104ebd00dc93fa5e302a49826fd1d87d5e))
+
+
+### Bug Fixes
+
+* **payment:** INT-4287 Fix Fawry payment ([837fca7](https://github.com/bigcommerce/checkout-js/commit/837fca77a0ece4e8acc4ee61382f2f384cc807a1))
+
 ### [1.137.1](https://github.com/bigcommerce/checkout-js/compare/v1.137.0...v1.137.1) (2021-05-10)
 
 ## [1.137.0](https://github.com/bigcommerce/checkout-js/compare/v1.136.0...v1.137.0) (2021-05-06)
