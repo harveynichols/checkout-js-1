@@ -22,7 +22,7 @@
     padding: spacing("single");
 
     @include breakpoint("small") {
-        padding: spacing("single");
+        padding: spacing("single") !important;
     }
 }
 
