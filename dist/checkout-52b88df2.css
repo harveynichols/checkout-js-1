@@ -3594,7 +3594,7 @@ h6 a:hover {
   color: currentcolor; }
 
 .button {
-  border-radius: 0;
+  border-radius: 0 !important;
   text-transform: uppercase;
   transition: all 100ms ease-out; }
   .button:focus {
@@ -4295,9 +4295,9 @@ h6 a:hover {
   margin-bottom: 0; }
 
 .cart {
-  border: 1px solid #333;
+  border: 1px solid #333 !important;
   border-radius: 0;
-  box-shadow: none;
+  box-shadow: none !important;
   display: none;
   margin: 3rem 0 1.5rem;
   min-height: 300px; }
@@ -4330,7 +4330,7 @@ h6 a:hover {
     fill: currentColor; }
 
 .cart-section {
-  border-top: 1px solid #333;
+  border-top: 1px solid #333 !important;
   padding: 1.5rem; }
 
 .cart-section-heading {
@@ -4493,8 +4493,8 @@ h6 a:hover {
   margin-right: 0.5rem; }
 
 .checkoutHeader {
-  background-color: #fff;
-  border-bottom: 1px solid #000;
+  background-color: #fff !important;
+  border-bottom: 1px solid #000 !important;
   min-height: 0 !important;
   text-align: center !important; }
   @media (min-width: 620px) {
@@ -4516,7 +4516,7 @@ h6 a:hover {
     clear: both; }
   @media (min-width: 620px) {
     .checkoutHeader-content {
-      padding: 1.5rem; } }
+      padding: 1.5rem !important; } }
 
 .checkoutHeader-heading {
   font-size: 2.76923rem;
@@ -4537,7 +4537,7 @@ h6 a:hover {
       padding-right: 6rem; } }
 
 .checkout-step {
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #333 !important;
   padding: 1.5rem 0; }
   .checkout-step:last-child {
     border: 0; }
@@ -4585,7 +4585,7 @@ h6 a:hover {
   height: 2.69231rem;
   width: 2.69231rem;
   background-color: #333;
-  border-radius: 0;
+  border-radius: 0 !important;
   text-align: center;
   transition: transform 250ms ease; }
   .stepHeader-counter::before {
@@ -5350,4 +5350,4 @@ body.klarna-payments-fso-open {
     font-weight: normal; }
 
 
-/*# sourceMappingURL=checkout-8b93f23e.css.map*/
+/*# sourceMappingURL=checkout-52b88df2.css.map*/

@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.137.2-alpha.1620953028336](https://github.com/bigcommerce/checkout-js/compare/v1.137.2-alpha.1620951999134...v1.137.2-alpha.1620953028336) (2021-05-14)
+
+
+### Features
+
+* **poc-setup:** add !Imporant to style override ([1ac6ff2](https://github.com/bigcommerce/checkout-js/commit/1ac6ff2c3405549a682aa4b34ed6c3585148b607))
+* **poc-setup:** use !important for custom style overrides ([93aec13](https://github.com/bigcommerce/checkout-js/commit/93aec1333e9c2594ced361d4a576502752a6dcbb))
+
 ### [1.137.2-alpha.1620951999134](https://github.com/bigcommerce/checkout-js/compare/v1.137.2-alpha.1620895893079...v1.137.2-alpha.1620951999134) (2021-05-14)
 
 
