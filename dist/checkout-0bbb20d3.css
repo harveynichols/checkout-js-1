@@ -1376,7 +1376,7 @@ code {
   border-color: #ebebeb;
   border-style: solid;
   border-width: 1px;
-  color: #ed6a6a;
+  color: #b44;
   font-family: Consolas, Monaco, "Andale Mono", monospace;
   font-size: 1rem;
   font-weight: 400;
@@ -2869,14 +2869,14 @@ Form inline errors
 .form-field--error .form-checkbox + .form-label::before,
 .form-field--error .form-radio + .form-label::before,
 .form-field--error .form-prefixPostfix-label {
-  border-color: #ed6a6a; }
+  border-color: #b44; }
 
 .form-field--error .form-field-error,
 .form-field--error .form-inlineMessage {
-  color: #ed6a6a; }
+  color: #b44; }
 
 .form-field--error .form-input-indicator > svg {
-  fill: #ed6a6a; }
+  fill: #b44; }
 
 
 .form-field--warning .form-input,
@@ -3177,7 +3177,7 @@ You can set the vertical alignment of the columns in the setting variables.
   border-color: #fbeeee;
   color: #333; }
   .alertBox--error svg {
-    fill: #ed6a6a; }
+    fill: #b44; }
 
 .alertBox-column {
   display: table-cell;
@@ -3683,15 +3683,15 @@ h6 a:hover {
 .form-field--error .form-input,
 .form-field--error .widget--stripev3,
 .form-field--error .form-select {
-  background-color: #fffafa;
+  background-color: #b44;
   transition: background-color 0.8s ease-out; }
 
 .form-field--error .form-label {
-  color: #ed6a6a; }
+  color: #b44; }
 
 .form-input--error {
-  border-color: #ed6a6a;
-  box-shadow: 0 0 3px rgba(237, 106, 106, 0.6); }
+  border-color: #b44;
+  box-shadow: 0 0 3px rgba(187, 68, 68, 0.6); }
 
 .form-legend-container {
   align-items: center;
@@ -3731,7 +3731,7 @@ h6 a:hover {
   font-weight: 700; }
 
 .alertBox--error {
-  color: #ed6a6a; }
+  color: #b44; }
 
 .alertBox--success {
   color: #51a551; }
@@ -4002,7 +4002,7 @@ h6 a:hover {
   width: 4.15385rem; }
 
 .icon--error svg {
-  fill: #ed6a6a; }
+  fill: #b44; }
 
 .loadingNotification-label {
   align-items: center;
@@ -4295,7 +4295,7 @@ h6 a:hover {
   margin-bottom: 0; }
 
 .cart {
-  border: 1px solid #333 !important;
+  border: 1px solid #ebebeb !important;
   border-radius: 0 !important;
   box-shadow: none !important;
   display: none;
@@ -4330,7 +4330,7 @@ h6 a:hover {
     fill: currentColor; }
 
 .cart-section {
-  border-top: 1px solid #333 !important;
+  border-top: 1px solid #ebebeb;
   padding: 1.5rem; }
 
 .cart-section-heading {
@@ -4367,7 +4367,7 @@ h6 a:hover {
   .cart-priceItem--total .cart-priceItem-label {
     font-size: 1.15385rem; }
   .cart-priceItem--total .cart-priceItem-value {
-    font-size: 2.30769rem;
+    font-size: 1.15385rem;
     font-weight: 700;
     line-height: 1.2; }
 
@@ -4526,7 +4526,13 @@ h6 a:hover {
 
 .checkoutHeader-link {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  margin: auto;
+  width: 70%; }
+  @media (min-width: 980px) {
+    .checkoutHeader-link {
+      margin: 0;
+      width: 100%; } }
 
 .checkout-steps {
   counter-reset: li-counter;
@@ -4688,7 +4694,7 @@ h6 a:hover {
   margin-left: 0.75rem; }
 
 .instrumentModal-instrumentExpiry--expired {
-  color: #ed6a6a; }
+  color: #b44; }
 
 .instrumentSelect {
   position: relative;
@@ -4745,7 +4751,7 @@ h6 a:hover {
   text-align: left; }
 
 .instrumentSelect-expiry--expired {
-  color: #ed6a6a; }
+  color: #b44; }
 
 .instrumentSelect-details--expired {
   cursor: not-allowed; }
@@ -5350,4 +5356,4 @@ body.klarna-payments-fso-open {
     font-weight: normal; }
 
 
-/*# sourceMappingURL=checkout-8aa2cf7a.css.map*/
+/*# sourceMappingURL=checkout-0bbb20d3.css.map*/

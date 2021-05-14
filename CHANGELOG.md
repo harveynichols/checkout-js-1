@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.137.2-alpha.1621002540560](https://github.com/bigcommerce/checkout-js/compare/v1.137.2-alpha.1620983242196...v1.137.2-alpha.1621002540560) (2021-05-14)
+
+
+### Features
+
+* **poc-setup:** resize header based on breakpoint ([1258ed7](https://github.com/bigcommerce/checkout-js/commit/1258ed74b2ab12c78bee6feeca969a6aebfe0c17))
+* **poc-setup:** revert cart styles to use container function ([d785004](https://github.com/bigcommerce/checkout-js/commit/d7850046614e408decdd97d747774abbef0a9ce5))
+* **poc-setup:** set error color ([3a6f620](https://github.com/bigcommerce/checkout-js/commit/3a6f6209620839159cdf1afacb8f242dd50f9dc1))
+* **poc-setup:** use smaller font size for cart total price ([8d6c076](https://github.com/bigcommerce/checkout-js/commit/8d6c076c69008c34bb1f0f522a602f766052e60d))
+
 ### [1.137.2-alpha.1620983242196](https://github.com/bigcommerce/checkout-js/compare/v1.137.2-alpha.1620953028336...v1.137.2-alpha.1620983242196) (2021-05-14)
 
 
