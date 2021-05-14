@@ -11,7 +11,7 @@
 .widget--paymentMethod {
     background-color: container("fill", "dark");
     border: container("border", "dark");
-    border-radius: $global-radius;
+    border-radius: $global-radius !important;
     list-style: none;
     margin-left: 0;
     padding-bottom: 0;

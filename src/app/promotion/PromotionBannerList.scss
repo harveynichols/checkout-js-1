@@ -4,7 +4,7 @@
     margin-top: spacing("single");
 
     .alertBox {
-        border-radius: $global-radius;
+        border-radius: $global-radius !important;
     }
 }
 
