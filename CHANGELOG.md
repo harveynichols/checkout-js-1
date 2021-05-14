@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.137.2-alpha.1620983242196](https://github.com/bigcommerce/checkout-js/compare/v1.137.2-alpha.1620953028336...v1.137.2-alpha.1620983242196) (2021-05-14)
+
+
+### Features
+
+* **poc-setup:** set border-radius overwrites as `important` ([8093de3](https://github.com/bigcommerce/checkout-js/commit/8093de3ce7a50d48be9baa3d0a17798f68ffd493))
+
 ### [1.137.2-alpha.1620953028336](https://github.com/bigcommerce/checkout-js/compare/v1.137.2-alpha.1620951999134...v1.137.2-alpha.1620953028336) (2021-05-14)
 
 
