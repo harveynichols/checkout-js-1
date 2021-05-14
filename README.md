@@ -12,6 +12,18 @@ In order to build from the source code, you must have the following set up in yo
 
 One of the simplest ways to install Node is using [NVM](https://github.com/nvm-sh/nvm#installation-and-update). You can follow their instructions to set up your environment if it is not already set up.
 
+## Deployment
+
+First, run the build script:
+
+```sh
+./build.sh
+```
+
+This script builds the production version of the checkout and saves the output in `dist` directory.
+
+The production code is a collection of static files. They can be accessed via the browser. There is no need to run any Node server to run them.
+
 ## Development
 
 Once you have cloned the repository and set up your environment, you can start developing with it.
@@ -34,13 +46,25 @@ If you are developing the application locally and want to build the source code 
 npm run dev
 ```
 
+If you want to create a local server with your local build, run the following command:
+
+```sh
+npm run dev:server
+```
+
 If you want to create a prerelease (i.e.: `alpha`) for testing in the integration environment, you can run the following command:
 
 ```sh
 npm run release:alpha
 ```
 
-After that, you need to push the prerelease tag to your fork so it can be referenced remotely.
+After that, you need to push the prerelease tag to your fork so it can be referenced remotely
+(The command line will aid you in doing this).
+
+## Docker
+
+Please note that you may use Docker to run this project. Bear in mind that by default, the Dockerfile serves the dist folder (production build).
+In order to run the local files, change `./dist` to `./build` in the `Dockerfile`.
 
 ## Custom Checkout installation
 
@@ -51,9 +75,18 @@ If you want to test your checkout implementation, you can run:
 npm run dev:server
 ```
 
-And enter the local URL for `auto-loader-dev.js` in Checkout Settings, e.g `http://127.0.0.1:8080/auto-loader-dev.js`
+Then, enter the local URL for `auto-loader-dev.js` in Checkout Settings, e.g `http://127.0.0.1:8080/auto-loader-dev.js`
+Note: if Checkout on BC is live, this method is not suitable as it will cause the checkout to go down.
+Instead, test locally entirely using the `cornerstone` repo or run the `npm run release:alpha` command if you must try
+out the checkout implementation on the live server for a period of time (making sure to revert once done).
 
 ## Release
+
+For now, create alpha releases using `npm run release:alpha` and directly upload the new alpha version using Cyberduck.
+See [this guide](https://harveynichols.atlassian.net/wiki/spaces/PROD/pages/edit-v2/1635254306) for more details.
+
+Note that the below release instructions only apply to the BigCommerce repository, not ours.
+We will need to create our own pipelines to handle live releasing, in the future.
 
 Everytime a PR is merged to the master branch, CircleCI will trigger a build automatically. However, it won't create a new Git release until it is approved by a person with write access to the repository. If you have write access, you can approve a release job by going to [CircleCI](https://circleci.com/gh/bigcommerce/workflows/checkout-js/tree/master) and look for the job you wish to approve. You can also navigate directly to the release job by clicking on the yellow dot next to the merged commit.
 

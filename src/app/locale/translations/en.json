@@ -99,6 +99,7 @@
             "show_more": "Show more"
         },
         "customer": {
+            "poc_text": "This is a PoC of the BC Checkout-JS solution",
             "checkout_as_guest_text": "Checking out as a <strong>Guest</strong>? You'll be able to save your details to create an account with us later.",
             "continue_as_guest_action": "Continue as guest",
             "create_account_action": "Create Account",
@@ -367,7 +368,7 @@
             "order_with_downloadable_digital_items_text": "You can download your digital purchases by clicking the links on this page, or by logging into your account at any time. There is also a download link in your confirmation email, which should be arriving shortly.",
             "order_with_support_number_text": "An email will be sent containing information about your purchase. If you have any questions about your purchase, email us at <a href=\"mailto:{supportEmail}?Subject=Order {orderNumber}\" target=\"_top\">{supportEmail}</a> or call us at <a href=\"tel://{supportPhoneNumber}\">{supportPhoneNumber}</a>.",
             "order_without_downloadable_digital_items_text": "Once we receive your payment, we’ll send a confirmation email with a link to download your digital purchases.",
-            "order_without_support_number_text": "An email will be sent containing information about your purchase. If you have any questions about your purchase, email us at <a href=\"mailto:{supportEmail}?Subject=Order {orderNumber}\" target=\"_top\">{supportEmail}</a>.",
+            "order_without_support_number_text": "An email will be sent containing information about your purchase. If you have any questions about your purchase, email us at <a href=\"mailto:info@harveynichols-sb.mybigcommerce.com?Subject=Order {orderNumber}\" target=\"_top\">info@harveynichols-sb.mybigcommerce.com</a>.",
             "thank_you_customer_heading": "Thank you {name}!",
             "thank_you_heading": "Thank you!",
             "continue_shopping": "Continue Shopping »",

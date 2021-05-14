@@ -24,7 +24,7 @@
 .spamProtection-panel {
     background-color: container("fill");
     border: container("border");
-    border-radius: $global-radius;
+    border-radius: $global-radius !important;
     display: flex;
     min-height: 10rem;
     padding: spacing("half");

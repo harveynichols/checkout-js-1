@@ -3,9 +3,9 @@
 // =============================================================================
 
 .cart {
-    border: container("border");
-    border-radius: $checkoutCart-borderRadius;
-    box-shadow: container("dropShadow");
+    border: container("border") !important;
+    border-radius: $checkoutCart-borderRadius !important;
+    box-shadow: none !important;
     display: none;
     margin: spacing("double") 0 spacing("single");
     min-height: $checkoutCart-minHeight;
@@ -115,7 +115,7 @@
     }
 
     .cart-priceItem-value {
-        font-size: fontSize("larger");
+        font-size: fontSize("smaller");
         font-weight: fontWeight("bold");
         line-height: 1.2;
     }
