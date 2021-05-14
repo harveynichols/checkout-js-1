@@ -3,7 +3,7 @@
 // =============================================================================
 
 .cart {
-    border: 1px solid color("primary") !important;
+    border: container("border") !important;
     border-radius: $checkoutCart-borderRadius !important;
     box-shadow: none !important;
     display: none;
@@ -59,7 +59,7 @@
 // -----------------------------------------------------------------------------
 
 .cart-section {
-    border-top: 1px solid color("primary") !important;
+    border-top: container("border");
     padding: $checkoutCart-padding;
 }
 
